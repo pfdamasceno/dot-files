@@ -34,20 +34,6 @@ export PATH=$HOME/.gem/ruby/2.7.0/bin:$PATH
 
 #aliases
 ## logins
-alias rscp='rsync -avz -e ssh'
-alias comet='ssh damascus@comet-ln2.sdsc.xsede.org'
-alias comet-gpu='ssh damascus@comet-gpu.sdsc.xsede'
-alias mNorms='python /Users/pferreira/Documents/1_work/2_code/mNormsFS53/mNormsFS53/mNormsFS53.py'
-alias injavis='java -jar /Users/pferreira/Documents/1_work/2_code/injavis/injavis/bin/injavis.jar'
-alias rsachin='ssh -Y rajlab@10.19.79.61'
-alias sachin='ssh pablodamasceno@10.19.79.61'
-alias stampede='ssh -X pablod@stampede2.tacc.xsede.org'
-alias wynton='ssh pferreira@plog1.wynton.ucsf.edu'
-alias tantrum='ssh pferreira@tantrum.radiology.ucsf.edu'
-alias torch='ssh -Y torch.radiology.ucsf.edu'
-alias cronus='ssh cronus.radiology.ucsf.edu'
-alias bone='ssh bone-vm1.radiology.ucsf.edu'
-alias brain='ssh -X brain-vm1.radiology.ucsf.edu'
 
 ## others
 alias ll="ls -lth"
